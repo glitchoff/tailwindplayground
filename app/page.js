@@ -1,21 +1,11 @@
+import Link from "next/link";
 
 export default function Home() {
   return (
-   <>
-<div>
-   <code>
-    <div className="relative justify-center h-screen">
-    <button className="absolute bg-red-500 h-10 w-10 bottom-0 left-1/2 transform -translate-x-1/2 " > hello </button>
-    </div>
-    </code>
+   <>   
+<h1>All Tutorials</h1>   
+   <Link href={"/centre-a-div"}>Centre a div</Link>
 
-    <div>
-
-
-    </div>
-   </div>
-   
-   
    </>
   );
 }
